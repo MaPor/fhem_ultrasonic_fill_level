@@ -14,4 +14,6 @@ During hot summers without rain there is the danger of missing water and because
 - Measuring the distance from sensor to water level by time of flight
 - known mounting heigt -> calculation of fill level possible
 
+# Issues
 
+- Sometimes weird measuring value due to multipath reflexions or swimming ball inside of cistern. -> quick solution: take 5 measurements and collect a mean value. every mearuement value far away from this mean value is not valid.
